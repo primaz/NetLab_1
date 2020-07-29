@@ -1,0 +1,19 @@
+en
+conf term
+!
+interface ethernet 0/0
+ip address dhcp
+!
+no shut
+exit
+enable password cisco
+username misael password cisco
+!
+line vty 0 4
+login local
+transport input telnet ssh
+end
+!
+wr
+
+
