@@ -6,11 +6,11 @@ import sys
 import telnetlib
 
 NET = "192.168.100."
-user =  'misael\n'.encode() #input("Enter your remote account: ")
+user =  'cisco\n'.encode() #input("Enter your remote account: ")
 password = 'cisco\n'.encode() #getpass.getpass()
 
 
-for i in range(99, 104):
+for i in range(100, 105):
     HOST = NET + str(i)
     tn = telnetlib.Telnet(HOST, timeout=3)
 

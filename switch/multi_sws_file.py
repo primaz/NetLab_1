@@ -5,8 +5,8 @@ import getpass
 import sys
 import telnetlib
 
-NET = "192.168.100."
-user =  'misael\n'.encode() #input("Enter your remote account: ")
+#NET = "192.168.100."
+user =  'cisco\n'.encode() #input("Enter your remote account: ")
 password = 'cisco\n'.encode() #getpass.getpass()
 
 file = open('inventory')
