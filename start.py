@@ -5,7 +5,7 @@ import sys
 import telnetlib
 
 HOST = input('Remote device: ') #"192.168.100.119"
-user =  'misael\n'.encode() #input("Enter your remote account: ")
+user =  'cisco\n'.encode() #input("Enter your remote account: ")
 password = 'cisco\n'.encode() #getpass.getpass()
 
 tn = telnetlib.Telnet(HOST, timeout=1)
